@@ -1,0 +1,250 @@
+<html>
+<head>
+    <title>
+        Dave Pagurek van Mossel - Artist and Animator - Dave Pagurek
+    </title>
+    <link href='http://fonts.googleapis.com/css?family=Bitter:400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300' rel='stylesheet' type='text/css'>
+    <meta http-equiv='X-UA-Compatible' content='IE=Edge'/>
+    <meta name='theme-color' content='#e74c3c' />
+    <meta name='viewport' content='width=device-width' />
+    <link href='http://www.davepagurek.com/Trestle/Theme/Pahgawks/Pahgawks.css' rel='stylesheet' type='text/css'>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-8777691-3', 'auto');
+        ga('send', 'pageview');
+
+    </script></head>
+<body>
+<div id='title'><h1><a href='http://www.davepagurek.com'>Dave Pagurek</a></h1></div>
+<div class='section' id='menu'>
+    <a id='menuLabel' onclick="(document.getElementById('menu').className=='section')?document.getElementById('menu').className='section open':document.getElementById('menu').className='section';">Menu</a>
+    <div class='wrapper'>
+        <a href='http://www.davepagurek.com' class='title'>Dave Pagurek</a>
+        <div id='links'>
+            <a href='http://www.davepagurek.com' class='selected'>About</a>
+            <a href='http://www.davepagurek.com/blog' >Blog</a>
+            <a href='http://www.davepagurek.com/archives'>Portfolio</a>
+        </div>
+    </div>
+</div>
+
+
+<div class="section" id="header">
+    <div class="wrapper centered bounceInLeft animated">
+        <img id="me" src="http://www.davepagurek.com/content/images/2015/1/dave.jpg" />
+        <div id="intro">
+            <h2>Hi, I'm Dave Pagurek.</h2>
+            <p></p>
+            <p>I'm a programmer, web developer, and digital artist studying Software Engineering at the University of Waterloo.</p>
+            <p>
+                <a class="button white" href="resume" target="_blank">Resume</a>
+                <a class="button white" href="https://github.com/pahgawk">GitHub</a>
+                <a class="button white" href="archives">Portfolio</a>
+            </p>
+        </div>
+    </div>
+</div>
+<div class="section">
+    <div class="wrapper">
+        <h2>Web and Programming</h2>
+        <p>I'm a programmer, web designer and developer, and occasional game maker. I have demonstrated expertise in <strong>Javascript</strong>, <strong>HTML</strong>, and hand-crafted <strong>CSS</strong>, and I also have extensive experience in PHP, SQL, C++, Perl, and Actionscript 3.</p>
+        <div class="half left">
+            <div class="padding">
+                <p>I made the <a href="http://www.davepagurek.com/programming/xcalc-js/">XCalc.js Javascript library</a>, a computer algebra system which can parse, simplify, evaluate, differentiate, and graph mathematical expressions. Made with HTML, CSS and Javascript.</p>
+                <p align="center"><a class="button small" href="http://www.davepagurek.com/programming/xcalc-js/">View Documentation and Demo</a></p>
+            </div>
+        </div>
+        <div class="half right">
+            <div class="padding">
+                <div class="browser"><div class="winbutton"></div><div class="winbutton"></div><div class="winbutton"></div><div class="navbar">http://www.davepagurek.com/math/</div><a href="http://www.davepagurek.com/programming/xcalc-js/"><img src="http://www.davepagurek.com/content/images/2014/12/mathsolver-medium.jpg" /></a></div>
+            </div>
+        </div>
+        <div class="half left">
+            <div class="padding">
+                <p>My website runs on <a href="http://davepagurek.com/programming/trestle">Trestle</a>, a lightweight Perl content management system featuring caching, templating, and an admin interface.</p>
+                <p align="center"><a class="button small" href="http://davepagurek.com/programming/trestle">View Trestle Documentation</a></p>
+            </div>
+        </div>
+        <div class="half right">
+            <div class="padding centered">
+                <div class="browser"><div class="winbutton"></div><div class="winbutton"></div><div class="winbutton"></div><div class="navbar">http://www.davepagurek.com/programming/trestle/</div><a href="http://www.davepagurek.com/programming/trestle/"><img src="http://www.davepagurek.com/content/images/2015/2/trestle-admin-medium.jpg" /></a></div>
+            </div>
+        </div>
+        <p align="center"><a class="button" href="http://www.davepagurek.com/programming">View More Programming</a></p>
+    </div>
+</div>
+<div class="section odd">
+    <div class="wrapper">
+        <div class="half left">
+            <div class="padding">
+                <h2>Animation</h2>
+                <p>As a 2D animator, I have lots of experience creating digital animations with <strong>Adobe Flash</strong> and <strong>Toon Boom Animate</strong>, as well as some basic experience making 3D animations in Blender.</p>
+                <p align="center"><a class="button" href="http://www.davepagurek.com/film">View animations</a></p>
+            </div>
+        </div>
+        <div class="half right">
+            <div class="padding">
+                <iframe width="100%" height="480" src="http://www.youtube.com/embed/YSIJ2Phunts?rel=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section">
+    <div class="wrapper">
+        <h2>Music</h2>
+        <p>I <html>
+        <head>
+            <title>
+                Dave Pagurek van Mossel - Artist and Animator - Dave Pagurek
+            </title>
+            <link href='http://fonts.googleapis.com/css?family=Bitter:400' rel='stylesheet' type='text/css'>
+            <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300' rel='stylesheet' type='text/css'>
+            <meta http-equiv='X-UA-Compatible' content='IE=Edge'/>
+            <meta name='theme-color' content='#e74c3c' />
+            <meta name='viewport' content='width=device-width' />
+            <link href='http://www.davepagurek.com/Trestle/Theme/Pahgawks/Pahgawks.css' rel='stylesheet' type='text/css'>
+            <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-8777691-3', 'auto');
+                ga('send', 'pageview');
+
+            </script></head>
+        <body>
+        <div id='title'><h1><a href='http://www.davepagurek.com'>Dave Pagurek</a></h1></div>
+        <div class='section' id='menu'>
+            <a id='menuLabel' onclick="(document.getElementById('menu').className=='section')?document.getElementById('menu').className='section open':document.getElementById('menu').className='section';">Menu</a>
+            <div class='wrapper'>
+                <a href='http://www.davepagurek.com' class='title'>Dave Pagurek</a>
+                <div id='links'>
+                    <a href='http://www.davepagurek.com' class='selected'>About</a>
+                    <a href='http://www.davepagurek.com/blog' >Blog</a>
+                    <a href='http://www.davepagurek.com/archives'>Portfolio</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section" id="header">
+            <div class="wrapper centered bounceInLeft animated">
+                <img id="me" src="http://www.davepagurek.com/content/images/2015/1/dave.jpg" />
+                <div id="intro">
+                    <h2>Hi, I'm Dave Pagurek.</h2>
+                    <p></p>
+                    <p>I'm a programmer, web developer, and digital artist studying Software Engineering at the University of Waterloo.</p>
+                    <p>
+                        <a class="button white" href="resume" target="_blank">Resume</a>
+                        <a class="button white" href="https://github.com/pahgawk">GitHub</a>
+                        <a class="button white" href="archives">Portfolio</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="wrapper">
+                <h2>Web and Programming</h2>
+                <p>I'm a programmer, web designer and developer, and occasional game maker. I have demonstrated expertise in <strong>Javascript</strong>, <strong>HTML</strong>, and hand-crafted <strong>CSS</strong>, and I also have extensive experience in PHP, SQL, C++, Perl, and Actionscript 3.</p>
+                <div class="half left">
+                    <div class="padding">
+                        <p>I made the <a href="http://www.davepagurek.com/programming/xcalc-js/">XCalc.js Javascript library</a>, a computer algebra system which can parse, simplify, evaluate, differentiate, and graph mathematical expressions. Made with HTML, CSS and Javascript.</p>
+                        <p align="center"><a class="button small" href="http://www.davepagurek.com/programming/xcalc-js/">View Documentation and Demo</a></p>
+                    </div>
+                </div>
+                <div class="half right">
+                    <div class="padding">
+                        <div class="browser"><div class="winbutton"></div><div class="winbutton"></div><div class="winbutton"></div><div class="navbar">http://www.davepagurek.com/math/</div><a href="http://www.davepagurek.com/programming/xcalc-js/"><img src="http://www.davepagurek.com/content/images/2014/12/mathsolver-medium.jpg" /></a></div>
+                    </div>
+                </div>
+                <div class="half left">
+                    <div class="padding">
+                        <p>My website runs on <a href="http://davepagurek.com/programming/trestle">Trestle</a>, a lightweight Perl content management system featuring caching, templating, and an admin interface.</p>
+                        <p align="center"><a class="button small" href="http://davepagurek.com/programming/trestle">View Trestle Documentation</a></p>
+                    </div>
+                </div>
+                <div class="half right">
+                    <div class="padding centered">
+                        <div class="browser"><div class="winbutton"></div><div class="winbutton"></div><div class="winbutton"></div><div class="navbar">http://www.davepagurek.com/programming/trestle/</div><a href="http://www.davepagurek.com/programming/trestle/"><img src="http://www.davepagurek.com/content/images/2015/2/trestle-admin-medium.jpg" /></a></div>
+                    </div>
+                </div>
+                <p align="center"><a class="button" href="http://www.davepagurek.com/programming">View More Programming</a></p>
+            </div>
+        </div>
+        <div class="section odd">
+            <div class="wrapper">
+                <div class="half left">
+                    <div class="padding">
+                        <h2>Animation</h2>
+                        <p>As a 2D animator, I have lots of experience creating digital animations with <strong>Adobe Flash</strong> and <strong>Toon Boom Animate</strong>, as well as some basic experience making 3D animations in Blender.</p>
+                        <p align="center"><a class="button" href="http://www.davepagurek.com/film">View animations</a></p>
+                    </div>
+                </div>
+                <div class="half right">
+                    <div class="padding">
+                        <iframe width="100%" height="480" src="http://www.youtube.com/embed/YSIJ2Phunts?rel=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="wrapper">
+                <h2>Music</h2>
+                <p>I play the flute and am familiar with FL Studio. Here are some tunes I've made.</p>
+                <iframe class="soundcloud" width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/122671792&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+                <iframe class="soundcloud" width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/169105328&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+                <p align="center"><a class="button" href="http://pahgawks.bandcamp.com">Listen on Bandcamp</a> <a class="button" href="http://soundcloud.com/davidpvm">Listen on Soundcloud</a></p>
+            </div>
+        </div>
+
+
+        <div class='section' id='footer'>
+            <div class='wrapper'>
+                <p>My name is Dave and I'm an animator, musician, programmer, designer, and artist.</p>
+                <p>Want to get in touch? Find or contact me elsewhere:</p>
+                <p>
+                    <a href='mailto:dave@davepagurek.com' class='button'>dave@davepagurek.com</a>
+                    <a href='https://github.com/pahgawk/' class='button external' target='_blank'>GitHub</a>
+                    <a href='http://codepen.io/davepvm/' class='button external' target='_blank'>CodePen</a>
+                    <a href='http://pahgawk.newgrounds.com/' class='button external' target='_blank'>Newgrounds</a>
+                    <a href='http://www.youtube.com/pahgawk' class='button external' target='_blank'>YouTube</a>
+                    <a href='http://pahgawks.bandcamp.com/' class='button external' target='_blank'>Bandcamp</a>
+                    <a href='http://soundcloud.com/davidpvm' class='button external' target='_blank'>Soundcloud</a>
+                </p>
+            </div>
+        </div>
+        </body>
+        </html>
+
+            play the flute and am familiar with FL Studio. Here are some tunes I've made.</p>
+        <iframe class="soundcloud" width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/122671792&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+        <iframe class="soundcloud" width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/169105328&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+        <p align="center"><a class="button" href="http://pahgawks.bandcamp.com">Listen on Bandcamp</a> <a class="button" href="http://soundcloud.com/davidpvm">Listen on Soundcloud</a></p>
+    </div>
+</div>
+
+
+<div class='section' id='footer'>
+    <div class='wrapper'>
+        <p>My name is Dave and I'm an animator, musician, programmer, designer, and artist.</p>
+        <p>Want to get in touch? Find or contact me elsewhere:</p>
+        <p>
+            <a href='mailto:dave@davepagurek.com' class='button'>dave@davepagurek.com</a>
+            <a href='https://github.com/pahgawk/' class='button external' target='_blank'>GitHub</a>
+            <a href='http://codepen.io/davepvm/' class='button external' target='_blank'>CodePen</a>
+            <a href='http://pahgawk.newgrounds.com/' class='button external' target='_blank'>Newgrounds</a>
+            <a href='http://www.youtube.com/pahgawk' class='button external' target='_blank'>YouTube</a>
+            <a href='http://pahgawks.bandcamp.com/' class='button external' target='_blank'>Bandcamp</a>
+            <a href='http://soundcloud.com/davidpvm' class='button external' target='_blank'>Soundcloud</a>
+        </p>
+    </div>
+</div>
+</body>
+</html>
+

@@ -1,0 +1,38 @@
+/*
+* Custom variables
+*/
+@import url(bootstrap.css);
+* {
+  position: relative;
+  box-sizing: border-box; }
+
+body {
+  color: #FFF;
+  font-size: 16px; }
+
+header {
+  max-height: 600px;
+  height: 600px;
+  overflow: hidden; }
+  header img {
+    position: fixed;
+    top: 0px;
+    left: 50%;
+    margin-left: -600px;
+    width: 1200px; }
+  header .name {
+    font-size: 21px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    color: #FFF; }
+  header h1, header h2 {
+    width: 100%;
+    color: #FFF;
+    margin: 0; }
+
+/*
+* Override Bootstrap variables
+*/
+
+/*# sourceMappingURL=style.css.map */
