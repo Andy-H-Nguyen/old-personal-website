@@ -20,16 +20,58 @@ header {
     left: 50%;
     margin-left: -600px;
     width: 1200px; }
+    @media screen {
+      header img {
+        top: auto;
+        left: auto;
+        margin: 0;
+        width: 100%; } }
   header .name {
     font-size: 21px;
     position: absolute;
     top: 50px;
     left: 50px;
     color: #FFF; }
+  header .titles {
+    position: absolute;
+    bottom: 40%;
+    width: 100%;
+    text-align: center; }
+    @media screen {
+      header .titles {
+        bottom: 50%; } }
+  header .social {
+    position: absolute;
+    top: 55px;
+    right: 50px;
+    overflow: hidden;
+    color: #FFF; }
   header h1, header h2 {
     width: 100%;
     color: #FFF;
     margin: 0; }
+  header h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.06em;
+    margin-bottom: 10px; }
+    header h1 span {
+      display: block; }
+      @media screen {
+        header h1 span {
+          display: inline; } }
+  header h2 {
+    font-size: 16px;
+    width: 70%;
+    margin: 0 auto; }
+    @media screen {
+      header h2 {
+        width: 100%;
+        margin: 0; } }
+
+.fancy-font {
+  font-family: "Kaushan Script", cursive; }
 
 /*
 * Override Bootstrap variables

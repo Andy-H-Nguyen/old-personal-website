@@ -37,8 +37,14 @@ img {
     left: 50%;
     margin-left: -600px;
     width: 1200px;
+ 
+    @media screen {
+        top: auto;
+        left: auto;
+        margin: 0;
+        width: 100%;
+    }
 }
-
 .name {
         font-size: 21px;
         position: absolute;
@@ -46,11 +52,63 @@ img {
         left: 50px;
         color: $white;
     }
-    h1, h2 {
+ 
+.titles {
+        position: absolute;
+        bottom: 40%;
+        width: 100%;
+        text-align: center;
+ 
+        @media screen {
+            bottom: 50%;
+        }
+    }
+	
+.social {
+        position: absolute;
+        top: 55px;
+        right: 50px;
+        overflow: hidden;
+		color: $white;
+		}
+ 
+      h1, h2 {
         width: 100%;
         color: $white;
         margin: 0;
-    }	
+    }
+ 
+h1 {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 36px;
+        letter-spacing: 0.06em;
+        margin-bottom: $margin;
+ 
+        span {
+            display: block;
+ 
+            @media screen {
+                display: inline;
+            }
+        }
+     }
+ 
+     h2 {
+        font-size: 16px;
+        width: 70%;
+        margin: 0 auto;
+ 
+        @media screen {
+            width: 100%;
+            margin: 0;
+        }
+     }
+	
+}
+
+.fancy-font {
+    font-family: $fancy-font;
 }
  
 /*
