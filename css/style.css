@@ -11,18 +11,25 @@ body {
   font-size: 16px; }
 
 header {
+  background: #3300CC;
   max-height: 600px;
   height: 600px;
   overflow: hidden; }
   header .nav {
     background: #eeeeee; }
+    header .nav .jump-to {
+      text-align: left;
+      left: 20px; }
+    header .nav .social {
+      text-align: right;
+      right: 20px; }
   header img {
     position: fixed;
     top: 0px;
     left: 50%;
     margin-left: -600px;
     width: 1200px; }
-    @media screen {
+    @media screen and (min-width: 1200px) {
       header img {
         top: auto;
         left: auto;
@@ -39,19 +46,9 @@ header {
     bottom: 40%;
     width: 100%;
     text-align: center; }
-    @media screen {
+    @media screen and (min-width: 1200px) {
       header .titles {
         bottom: 50%; } }
-  header .social {
-    position: absolute;
-    top: 55px;
-    right: 50px;
-    overflow: hidden;
-    color: #FFF; }
-  header h1, header h2 {
-    width: 100%;
-    color: #FFF;
-    margin: 0; }
   header h1 {
     text-transform: uppercase;
     font-weight: 700;
@@ -60,14 +57,14 @@ header {
     margin-bottom: 10px; }
     header h1 span {
       display: block; }
-      @media screen {
+      @media screen and (min-width: 992px) {
         header h1 span {
           display: inline; } }
   header h2 {
     font-size: 16px;
     width: 70%;
     margin: 0 auto; }
-    @media screen {
+    @media screen and (min-width: 1200px) {
       header h2 {
         width: 100%;
         margin: 0; } }
@@ -75,7 +72,7 @@ header {
 .skills-wrap {
   background: #eeeeee; }
 
-.skills-content {
+.skills-content h3 {
   text-transform: uppercase;
   letter-spacing: 0.5em;
   font-size: 12px;
@@ -83,6 +80,30 @@ header {
   text-align: center;
   padding: 50px 0;
   color: #bbbbbb; }
+
+.photo-box {
+  margin: 0 0 30px 0; }
+  .photo-box .image-wrap img {
+    width: 100%; }
+  .photo-box .image-wrap .likes {
+    position: absolute;
+    bottom: 5px;
+    left: 15px;
+    padding: 5px;
+    background: #000;
+    background: rgba(0, 0, 0, 0.4);
+    color: #FFF; }
+  .photo-box .description {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    background: #FFF;
+    color: #9b9b9b;
+    letter-spacing: 1px;
+    padding: 15px;
+    height: 75px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; }
 
 .fancy-font {
   font-family: "Kaushan Script", cursive; }
@@ -101,10 +122,9 @@ header {
 
 footer {
   background: #FFF;
-  color: #585c65;
   padding: 30px 0;
   text-align: center; }
-  @media screen {
+  @media screen and (min-width: 1200px) {
     footer {
       padding: 100px 0; } }
   footer h4 {
@@ -112,10 +132,12 @@ footer {
     text-align: center;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 2px; }
+    letter-spacing: 2px;
+    color: #9b9b9b; }
   footer .about-text {
-    padding: 0 30px; }
-    @media screen {
+    padding: 0 30px;
+    color: #9b9b9b; }
+    @media screen and (min-width: 1200px) {
       footer .about-text {
         width: 650px;
         margin: 0 auto; } }
@@ -130,10 +152,10 @@ footer {
     letter-spacing: 1px;
     text-decoration: none;
     text-transform: uppercase; }
-    @media screen {
+    @media screen and (min-width: 992px) {
       footer .contact-now-btn {
         width: 60%; } }
-    @media screen {
+    @media screen and (min-width: 1200px) {
       footer .contact-now-btn {
         width: 20%;
         margin-top: 50px; } }
@@ -141,9 +163,9 @@ footer {
       background: #646873; }
 
 .footer-bottom {
-  background: #eeeeee;
+  background: #FFF;
   padding: 10px 60px;
-  border-top: 2px solid #eeeeee;
+  border-top: 4px solid #eeeeee;
   letter-spacing: 2px;
   text-align: center;
   color: #9b9b9b;

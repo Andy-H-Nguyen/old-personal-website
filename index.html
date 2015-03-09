@@ -1,78 +1,139 @@
 ﻿<!DOCTYPE html>
 <html>
-    <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Andy Nguyen</title>
-    <meta name="viewport" content="width=device-width,user-scalable=no">    <link href='http://fonts.googleapis.com/css?family=Lato:400,700|Kaushan+Script|Montserrat' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script type="text/javascript" src="js/modernizr.js"></script>
-	</head>
-<header>
+<head>
+  <meta charset="utf-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+
+  <title>Andy Nguyen</title>
+  <meta content="width=device-width,user-scalable=no" name="viewport">
+  <link href=
+  'http://fonts.googleapis.com/css?family=Lato:400,700|Kaushan+Script|Montserrat'
+  rel='stylesheet' type='text/css'>
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <script src="js/modernizr.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <header>
     <img src="img/bg.jpg">
-	<div class="name fancy-font">
-            Andy Nguyen
-	</div>
-	<div class="nav">
-	<a href="#about_me">About Me</a>
-	<a href="#skills">Projects</a>
-	</div>	
-      <div class="titles">
-	  <h1>Welcome ようこそ 歓迎</h1>
-	  <h1><a name="about_me"></a>About Me</h1>
-	  <h1>Hello! <span>My name is Andy Nguyen.</span></h1> 
-	  <h2>I am a computer science student at the University of Waterloo. I casually learn languages in my spare time.</h2>
-	  </div>
-	  <div class="social">
-	  <a href="https://github.com/ahng1996">Github</a>
-	  <a href="https://www.linkedin.com/profile/view?id=188086411&trk=hp-identity-name">LinkedIn</a>
-	  <a href="http://xebolg.deviantart.com/">DeviantArt</a>
-	  <a href="resume.pdf">Resume</a>	  
-	  <a href="mailto:andy.h.nguyen1996@gmail.com">Contact Me</a>
-	  </div>
-</header>	
-<body>  
-	  <section class="skills-wrap">
-	  <div class = "container">
-	  <div class = "skills-content"
-	  <h3><a name="skills"></a>What I can offer</h3>
-	  <p>I consider myself familiar with the following</p>
-	  
-	  <p>Integrated Development Environment and Compilers: NetBeans, MikroC C Compiler, DrRacket IDE, MPLAB IDE</p>
 
-	  <p>Languages: Racket, Scheme, C, Java, Assembly (PIC16F684, PIC16F876)</p>
+    <div class="name fancy-font">
+      Andy Nguyen
+    </div>
 
-	  <p>Programming Paradigms: Imperative, Functional, Object-Oriented</p>
+    <section class="nav">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="jump-to">
+            <a href="#about_me">About Me</a> <a href="#projects">Projects</a>
+          </div>
+        </div>
 
-	  <p>Technical Documents: microprocessor and electronic datasheets.</p>
-	  </div>
-	  </div>
-	  </section>
-	  <section class="about-site-wrap">
-	  <div class = "container">
-	  <div class= "about-site-content">
-	  <h1>About this website</h2>
-	  <p>This website was created using the standard HTML, CSS and Bootstrap. It is just a little thing I was working on because of boredom</p>
-	  </div>
-	  </div>
-	  </section>
-	<footer>
-	<div class="container">
-    <div class="row">
-        <div class="col-xs-12">
-            <h4>Get in touch</h4>
-            <p class="about-text">So yeah, that's all for now.</p>
-            <a class="contact-now-btn" href="#">Contact Me</a>
+        <div class="col-md-6">
+          <div class="social">
+            <a href="https://github.com/ahng1996">Github</a> <a href=
+            "https://www.linkedin.com/profile/view?id=188086411&trk=hp-identity-name">
+            LinkedIn</a> <a href="http://xebolg.deviantart.com/">DeviantArt</a>
+            <a href=
+            "https://onedrive.live.com/redir?resid=C35AAC5E4F694189!4762&authkey=!AHTULjs_0cSTMfI&ithint=file%2cdocx">
+            Resume</a> <a href="mailto:andy.h.nguyen1996@gmail.com">Contact
+            Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="titles">
+      <h1>Welcome ようこそ 歓迎</h1>
+      <h1><a name="about_me"></a>Hello! <span>My name is Andy Nguyen</span></h1>
+
+      <h2>I am a computer science student at the University of Waterloo. I
+      casually learn languages in my spare time.</h2>
+    </div>
+  </header>
+
+  <section class="skills-wrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="skills-content">
+				
+                    <h3><a name="projects"></a>My Projects</h3>
+                    <div class="row photos-wrap">
+                    <!-- Instafeed target div -->
+                    <div id="instafeed"></div>
+                    <!-- The following HTML will be our template inside instafeed -->
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="photo-box">
+                            <div class="image-wrap">
+                                <img src="img/web.jpg">
+                                <div class="likes">ahng1996.github.io</div>
+                            </div>
+                            <div class="description">
+                                A mobile-friendly website done with Bootstrap.
+                                <div class="date">March 9, 2015</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="photo-box">
+                            <div class="image-wrap">
+                                <img src="img/solitaire.jpg">
+                                <div class="likes">Peg Solitaire</div>
+                            </div>
+                            <div class="description">
+                                Solves a game of <a href="http://en.wikipedia.org/wiki/Peg_solitaire">peg solitaire.</a>
+                                <div class="date">December 9, 2015</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="photo-box">
+                            <div class="image-wrap">
+                                <img src="img/placeholder.jpg">
+                                <div class="likes">Empty</div>
+                            </div>
+                            <div class="description">
+                                Nothing here yet!
+                                <div class="date">Janurary 1, 1970</div>
+                            </div>
+                        </div>
+                    </div>					
+                        </div>
+                </div>
+            </div>
         </div>
     </div>
-	</div>
-	</footer>
-	<section class="footer-bottom">
-	2014 &copy; Andy Nguyen. All rights reserved.
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-	<script type="text/javascript" src="js/instafeed.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.js"></script>
-	<script type="text/javascript" src="js/app.js"></script>
-    </section>
+  </section>
+<!--
+  <section class="about-site-wrap">
+    <div class="container">
+      <div class="about-site-content">
+        <h1>About this website</h1>
+
+        <p>This website was created using the standard HTML, CSS and Bootstrap.
+        It is just a little thing I was working on because of boredom</p>
+      </div>
+    </div>
+  </section>
+-->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h4>Get in touch</h4>
+
+          <p class="about-text">So yeah, that's all for now.</p><a class=
+          "contact-now-btn" href="mailto:andy.h.nguyen1996@gmail.com">Contact
+          Me</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <section class="footer-bottom">
+    2014 &copy; Andy Nguyen. All rights reserved. <script src=
+    "https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script> <script src="js/instafeed.min.js" type="text/javascript"></script> <script src="js/bootstrap.js" type="text/javascript"></script> <script src="js/app.js" type="text/javascript"></script>
+  </section>
 </body>
 </html>

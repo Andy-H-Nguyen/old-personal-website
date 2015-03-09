@@ -12,10 +12,12 @@ $grey: #585c65;
 $mediumgrey: #9b9b9b;
 $lightgrey: #eeeeee;
 $blue: #3466a1;
- 
+$lightgreen: #33ff00;
 $padding: 10px;
 $margin: 10px;
-
+$screen-sm:768px;
+$screen-md:992px;
+$screen-lg:1200px;
 * {
     position: relative;
     box-sizing: border-box;
@@ -28,11 +30,20 @@ body {
  
  
 header {
+	background: #3300CC;
     max-height: 600px;
     height: 600px;
     overflow: hidden;
 .nav {
     background: $lightgrey;
+	.jump-to {
+	text-align: left;
+	left: 20px;
+		}
+	.social {
+	text-align: right;
+	right: 20px;
+		}
 }	
 img {
     position: fixed;
@@ -41,7 +52,7 @@ img {
     margin-left: -600px;
     width: 1200px;
  
-    @media screen {
+    @media screen and (min-width: $screen-lg){
         top: auto;
         left: auto;
         margin: 0;
@@ -62,23 +73,9 @@ img {
         width: 100%;
         text-align: center;
  
-        @media screen {
+        @media screen and (min-width: $screen-lg) {
             bottom: 50%;
         }
-    }
-	
-.social {
-        position: absolute;
-        top: 55px;
-        right: 50px;
-        overflow: hidden;
-		color: $white;
-		}
- 
-      h1, h2 {
-        width: 100%;
-        color: $white;
-        margin: 0;
     }
  
 h1 {
@@ -91,7 +88,7 @@ h1 {
         span {
             display: block;
  
-            @media screen {
+            @media screen and (min-width: $screen-md) {
                 display: inline;
             }
         }
@@ -102,7 +99,7 @@ h1 {
         width: 70%;
         margin: 0 auto;
  
-        @media screen {
+        @media screen and (min-width: $screen-lg){
             width: 100%;
             margin: 0;
         }
@@ -115,6 +112,7 @@ h1 {
 }
  
 .skills-content {
+    h3 {
         text-transform: uppercase;
         letter-spacing: 0.5em;
         font-size: 12px;
@@ -122,7 +120,39 @@ h1 {
         text-align: center;
         padding: $padding*5 0;
         color: darken($lightgrey, 20%);
- }
+    }
+}
+
+.photo-box {
+        margin: 0 0 $margin*3 0;
+        .image-wrap {
+            img {
+                width: 100%;
+            }
+ 
+            .likes {
+                position: absolute;
+                bottom: 5px;
+                left: 15px;
+                padding: $padding/2;
+                background: $black;
+                background: rgba($black, 0.4);
+                color: $white;
+            }
+        }
+        .description {
+            font-family: $sub-font;
+            font-size: 12px;
+            background: $white;
+            color: $mediumgrey;
+            letter-spacing: 1px;
+            padding: $padding*1.5;
+            height: 75px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+    }
 
 .fancy-font {
     font-family: $fancy-font;
@@ -145,11 +175,10 @@ h1 {
 
 footer {
     background: $white;
-	color: $grey;
     padding: $padding*3 0;
     text-align: center;
  
-    @media screen {
+    @media screen and (min-width: $screen-lg) {
         padding: $padding*10 0;
     }
  
@@ -159,12 +188,13 @@ footer {
         font-weight: 700;
         text-transform: uppercase;
         letter-spacing: 2px;
+		color: $mediumgrey;
     }
  
     .about-text {
         padding: 0 $padding*3;
- 
-        @media screen {
+		color: $mediumgrey;
+        @media screen and (min-width: $screen-lg) {
             width: 650px;
             margin: 0 auto;
         }
@@ -182,11 +212,11 @@ footer {
         text-decoration: none;
         text-transform: uppercase;
  
-        @media screen {
+        @media screen and (min-width: $screen-md) {
             width: 60%;
         }
  
-        @media screen {
+        @media screen and (min-width: $screen-lg) {
             width: 20%;
             margin-top: $margin*5;
         }
@@ -198,9 +228,9 @@ footer {
 }
 
 .footer-bottom {
-    background: $lightgrey;
+    background: $white;
     padding: $padding $padding*6;
-    border-top: 2px solid $lightgrey;
+    border-top: 4px solid $lightgrey;
     letter-spacing: 2px;
     text-align: center;
     color: $mediumgrey;
