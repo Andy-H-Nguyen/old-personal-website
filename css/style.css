@@ -16,13 +16,26 @@ header {
   height: 600px;
   overflow: hidden; }
   header .nav {
-    background: #eeeeee; }
-    header .nav .jump-to {
-      text-align: left;
-      left: 20px; }
-    header .nav .social {
-      text-align: right;
-      right: 20px; }
+    background: #FFF; }
+    header .nav li {
+      float: left; }
+    header .nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0s;
+      overflow: hidden; }
+    header .nav a:link, header .nav a:visited {
+      display: block;
+      width: 120px;
+      font-weight: bold;
+      color: grey;
+      background-color: #FFF;
+      text-align: center;
+      padding: 4px;
+      text-decoration: none;
+      text-transform: uppercase; }
+    header .nav a:hover, header .nav a:active {
+      background-color: #f2f2f2; }
   header img {
     position: fixed;
     top: 0px;
